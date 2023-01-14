@@ -119,7 +119,7 @@
                                     <br>
 
                                     <span class="text-sm">
-                                        {{$order->total}} MXN
+                                        {{$order->total}} 
                                     </span>
                                 </div>
 

@@ -4,7 +4,7 @@
     <div class="bg-white rounded-lg shadow-lg px-12 py-8 mb-6 flex items-center">
 
         <div class="relative">
-            <div class="{{ ($order->status >= 2 && $order->status != 5) ? 'bg-blue-400' : 'bg-gray-400' }}  rounded-full h-12 w-12 flex items-center justify-center">
+            <div class="{{ ($order->status >= 2 && $order->id != 5) ? 'bg-blue-400' : 'bg-gray-400' }}  rounded-full h-12 w-12 flex items-center justify-center">
                 <i class="fas fa-check text-white"></i>
             </div>
 
